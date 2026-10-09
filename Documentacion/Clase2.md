@@ -43,3 +43,9 @@ Se refieren a los parámetros enviados a través del enrutador en una solicitud 
 Cuando se recibe una solicitud que coincide con una ruta que contiene parámetros, Express extrae los valores de los parámetros y los hace accesibles a través del objeto `req.params`, este objeto contiene pares clave-valor, donde la clave es el nombre del parámetro definido en la ruta y el valor es el valor que se captura de la URL.
 
 Los parámetros se definen en la ruta utilizando dos puntos (:) seguidos de un nombre de variable.
+
+Enrutadores
+
+Un router es una forma de organizar y gestionar las rutas de una aplicación web de manera modular. Los routers permiten agrupar rutas relacionadas y sus respectivos controladores en un lugar específico.
+
+Un router en Express es un objeto que proporciona métodos para definir rutas y gestionar las solicitudes HTTP asociadas a esas rutas. Puedes utilizar varios routers en una aplicación Express para dividir y organizar las rutas en diferentes módulos o archivos.
